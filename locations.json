@@ -1,0 +1,32 @@
+[
+    {
+        "cidade": "PORTO ALEGRE",
+        "enderecos": [
+            {
+                "local": "BOURBON SHOPPING WALLIG",
+                "endereco": "Av. Grécia, 1500 CEP: 91350-070",
+                "fone": "(51) 3363.3333"
+            },
+            {
+                "local": "BOURBON SHOPPING IPIRANGA",
+                "endereco": "Av. Ipiranga, 5200 CEP: 90610-000",
+                "fone": "4004.1828"
+            }
+        ]
+    },
+    {
+        "cidade": "SÃO PAULO",
+        "enderecos": [
+            {
+                "local": "BOURBON SHOPPING SÃO PAULO",
+                "endereco": "Rua Palestra Itália, 500 CEP: 05005-030",
+                "fone": "4004.1828"
+            },
+            {
+                "local": "HIPERMERCADO ZAFFARI SÃO PAULO",
+                "endereco": "Rua Palestra Itália, 500 CEP: 05005-900",
+                "fone": "(11) 3874-5000"
+            }
+        ]
+    }
+]

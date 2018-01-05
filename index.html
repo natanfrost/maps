@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Place Autocomplete</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="conteudo">
+        <div class="pac-card" id="pac-card">
+        <div>
+            <div id="title">
+            Busque o revendedor mais próximo de você
+            </div>   
+        </div>
+        <div id="pac-container">
+            <input id="pac-input" type="text"
+                placeholder="Informe o local desejado...">
+
+            <div class="list-group onde_achar">                                        
+            </div>
+        </div>
+        </div>
+        
+        <div id="map"></div>
+        <div id="infowindow-content">
+        <img src="" width="16" height="16" id="place-icon">
+        <span id="place-name"  class="title"></span><br>
+        <span id="place-address"></span>
+        </div>
+    </div>            
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmaRQlYZVBXcdtveM8UvXHMVddBWX-vuU&libraries=places&callback=APIController.initMap"
+        async defer></script>
+    
+    <script src="refactor.js"></script>
+  </body>
+</html>
