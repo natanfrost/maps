@@ -146,7 +146,7 @@ var APIController = (function (UICtrl) {
     return {
         initMap: function () {
             // initialize map
-            apiMap = new google.maps.Map(document.getElementById(DOMStrings.map), {
+            apiMap = new google.maps.Map(document.getElementById(DOMStrings.googleMap), {
                 center: {
                     lat: starterLocation.lat,
                     lng: starterLocation.lng
