@@ -1,32 +1,43 @@
-[
-    {
-        "cidade": "PORTO ALEGRE",
-        "enderecos": [
-            {
-                "local": "BOURBON SHOPPING WALLIG",
-                "endereco": "Av. Grécia, 1500 CEP: 91350-070",
-                "fone": "(51) 3363.3333"
-            },
-            {
-                "local": "BOURBON SHOPPING IPIRANGA",
-                "endereco": "Av. Ipiranga, 5200 CEP: 90610-000",
-                "fone": "4004.1828"
-            }
-        ]
-    },
-    {
-        "cidade": "SÃO PAULO",
-        "enderecos": [
-            {
-                "local": "BOURBON SHOPPING SÃO PAULO",
-                "endereco": "Rua Palestra Itália, 500 CEP: 05005-030",
-                "fone": "4004.1828"
-            },
-            {
-                "local": "HIPERMERCADO ZAFFARI SÃO PAULO",
-                "endereco": "Rua Palestra Itália, 500 CEP: 05005-900",
-                "fone": "(11) 3874-5000"
-            }
-        ]
-    }
-]
+{
+    "app": "maps_api",
+    "locations": [
+        {
+            "city": "PORTO ALEGRE",
+            "addresses": [{
+                    "description": "BOURBON SHOPPING WALLIG",
+                    "address": "Av. Grécia, 1500 CEP: 91350-070",
+                    "fone": "(51) 3363.3333"
+                },
+                {
+                    "description": "BOURBON SHOPPING IPIRANGA",
+                    "address": "Av. Ipiranga, 5200 CEP: 90610-000",
+                    "fone": "4004.1828"
+                },
+                {
+                    "description": "BOURBON SHOPPING COUNTRY",
+                    "address": "Av. Túlio de Rose, 80 CEP: 91340-110",
+                    "fone": "(51) 3361.7399"
+                },
+                {
+                    "description": "MOINHOS SHOPPING",
+                    "address": "R. Olávo Barreto Viana, 36 CEP: 90570-070",
+                    "fone": "(51) 2123-2000"
+                }
+            ]
+        },
+        {
+            "city": "SÃO PAULO",
+            "addresses": [{
+                    "description": "BOURBON SHOPPING SÃO PAULO",
+                    "address": "Rua Palestra Itália, 500 CEP: 05005-030",
+                    "fone": "4004.1828"
+                },
+                {
+                    "description": "HIPERMERCADO ZAFFARI MORUMBI TOWN",
+                    "address": "Avenida Giovanni Gronchi, 5930 - Vila Andrade CEP: 05724-002",
+                    "fone": "Fone: (11) 3143-9500"
+                }
+            ]
+        }
+    ]
+}
