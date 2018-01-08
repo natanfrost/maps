@@ -45,7 +45,7 @@ var APIController = (function (UICtrl) {
     }
 
     function success(pos) {
-        APIctrl.moveCenterTo({
+        apiMap.panTo({
             lat: pos.coords.latitude,
             lng: pos.coords.longitude
         });
@@ -75,9 +75,10 @@ var APIController = (function (UICtrl) {
                 fetch(URL)
                 .then(result => result.json())
                 .then(function (data) {
-                    // 1: get the addresses coordinates 
+                    // get the address coordinates 
                     address = new Address(element.address, data.results[0].geometry.location.lat, data.results[0].geometry.location.lng)
                     console.log(address);
+                    // add the marker on map and update UI
                     addMarker(address);
                 }); 
             });
