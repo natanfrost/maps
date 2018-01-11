@@ -7,7 +7,7 @@ function init() {
         locations = JSON.parse(response);
     });
 }
-
+ 
 function locateAddresses(city) {
     document.querySelector(".onde_achar").innerHTML = '';
     var foundAddresses = [];
