@@ -28,7 +28,7 @@ var APIController = (function (UICtrl) {
     var SEARCH_URL, KEY, locations, DOMStrings;
 
     SEARCH_URL = "https://maps.googleapis.com/maps/api/geocode/json?address=%address%&key=";
-    KEY = "AIzaSyCmaRQlYZVBXcdtveM8UvXHMVddBWX-vuU";
+    KEY = "YOUR_KEY";
 
     DOMStrings = UICtrl.getDOMStrings();
 
